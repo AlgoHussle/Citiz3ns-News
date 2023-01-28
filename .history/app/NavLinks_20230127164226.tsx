@@ -6,7 +6,7 @@ function NavLinks() {
     <nav>
       {categories.map((category) => (
         <NavLink key={category} category={category} isActive={true} />
-        ))}
+        )}};
     </nav>
   )
 }
