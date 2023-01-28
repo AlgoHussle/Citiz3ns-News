@@ -1,13 +1,9 @@
-"use client";
+'use client'
 
-import { FormEvent, useState } from "react";
+import { useState } from "react";
 
 function SearchBox() {
   const [input, setInput] = useState("");
-
-  const handleSearch = (e: FormEvent<HTMLFormElement>) => {
-
-  }
   return (
     <form 
     onSubmit={handleSearch}

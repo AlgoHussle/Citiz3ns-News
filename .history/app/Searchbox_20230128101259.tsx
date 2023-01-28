@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { Form, useState } from "react";
 
 function SearchBox() {
   const [input, setInput] = useState("");
