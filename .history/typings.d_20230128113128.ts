@@ -1,0 +1,15 @@
+
+
+
+type NewsResponse = { 
+    pagination: 
+}
+
+type Category =
+    "general"
+    "business"
+    "entertainment"
+    "health"
+    "science"
+    "sports"
+    "technology";
